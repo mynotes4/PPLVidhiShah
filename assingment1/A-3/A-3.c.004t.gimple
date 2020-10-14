@@ -1,0 +1,38 @@
+main ()
+{
+  int D.1983;
+
+  {
+    int sum;
+    int i;
+    int j;
+
+    sum = 0;
+    goto <D.1974>;
+    <D.1973>:
+    sum = sum * 2;
+    <D.1974>:
+    if (sum <= 99) goto <D.1973>; else goto <D.1975>;
+    <D.1975>:
+    i = 0;
+    goto <D.1980>;
+    <D.1979>:
+    j = 0;
+    goto <D.1977>;
+    <D.1976>:
+    _1 = i * j;
+    sum = sum + _1;
+    j = j + 1;
+    <D.1977>:
+    if (j <= 49) goto <D.1976>; else goto <D.1978>;
+    <D.1978>:
+    i = i + 1;
+    <D.1980>:
+    if (i <= 24) goto <D.1979>; else goto <D.1981>;
+    <D.1981>:
+  }
+  D.1983 = 0;
+  return D.1983;
+}
+
+
